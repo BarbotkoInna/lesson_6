@@ -1,0 +1,270 @@
+main {
+   max-width: 810px;
+   margin: 0 auto;
+   font-family: "Lato";  
+}
+
+h1 {
+   margin-top: 12px;
+   margin-bottom: 92px;
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   color: #1E212C;
+}
+
+.img-holder {
+   margin-bottom: 60px;
+}
+
+.text-bold.first,
+.text.second,
+.item-list {
+   margin-bottom: 24px;
+}
+
+.text.first,
+.text-bold.second {
+   margin-bottom: 48px;
+}
+
+.text-bold.second {
+   padding-left: 58px;
+}
+
+.item-1,
+.item-2,
+.item-3 {
+   padding-bottom: 4px;
+}
+
+.item-list {
+   padding-left: 32px;
+}
+
+.text.third {
+   margin-bottom: 60px;
+}
+
+.text-bold {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 150%;
+   color: #1E212C;
+}
+
+.text,
+.item-list {
+   line-height: 160%;
+   color: #424551;
+}
+
+.lesson {
+   margin-bottom: 45px;
+   font-size: 40px;
+   color: green;
+   text-decoration: dotted;
+   text-shadow: 2px 1px 3px darkgreen;
+   text-transform: uppercase;
+   margin-bottom: 15px;
+}
+
+.all {
+   background-color: blue;
+   padding: 20px;
+   margin: 10px;
+}
+
+.left {
+   background-color: aquamarine;
+   padding-left: 15px;
+   margin-left: 25px;
+}
+
+.right {
+   background-color: coral;
+   padding-right: 35px;
+   margin-right: 48px;
+}
+
+.top {
+   background-color: darkmagenta;
+   padding-top: 48px;
+   margin-top: 10px;
+}
+
+.bottom {
+   background-color: bisque;
+   padding-bottom: 56px;
+   margin-bottom: 78px;
+}
+
+.width {
+   background-color: coral;
+   width: 50%;
+   margin-bottom: 25px;
+}
+
+.width-2 {
+   background-color: aqua;
+   width: 900px;
+   margin-bottom: 25px;
+}
+
+.max-width {
+   background-color: chocolate;
+   max-width: 750px;
+   margin-bottom: 25px;
+}
+
+.min-width {
+   background-color: darkcyan;
+   min-width: 750px;
+   margin-bottom: 25px;
+}
+
+.bs-cb {
+   background-color: brown;
+   width: 750px;
+   height: 75px;
+   box-sizing: content-box;
+   padding: 15px;
+   margin-bottom: 25px;
+}
+
+.bs-bb {
+   background-color: cornflowerblue;
+   /* width: 750px; */
+   height: 175px;
+   box-sizing: border-box;
+   padding: 15px;
+   border: 25px dashed red;
+   text-align: center;
+   outline: 12px dotted greenyellow;
+   margin-bottom: 25px;
+}
+
+.max-height.hidden {
+   background-color: darkorchid;
+   max-height: 120px;
+   overflow: hidden;
+   margin-bottom: 25px;
+}
+
+.max-height.scroll {
+   background-color: aqua;
+   max-height: 120px;
+   overflow: scroll;
+   margin-bottom: 25px;
+}
+
+.max-height.auto {
+   background-color: rgb(202, 36, 136);
+   max-height: 320px;
+   overflow: auto;
+   opacity: 0.5;
+   margin-bottom: 25px;
+}
+
+.button {
+   background-color: yellow;
+   height: 50px;
+   width: 100px;
+   margin: 15px;
+   border-radius: 20px;
+   box-shadow: 5px 5px 5px 5px orange; 
+   margin-bottom: 25px;
+}
+
+.button-circle {
+   background-color: aquamarine;
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   box-shadow: inset 5px 5px 5px 5px green;
+}
+
+.min-height {
+   background-color: rosybrown;
+   min-height: 120px;
+   outline: 5px double royalblue;
+   margin-bottom: 25px;
+}
+
+.span-1,
+.span-2,
+.span-3 {
+   display: inline-block;
+   }
+
+
+.span-1 {
+   background-color: green;
+   max-width: 100px;
+   border-bottom: 3px double red;
+}
+
+.span-2 {
+   background-color: gray;
+   height: 58px;
+   outline: 10px solid green;
+   margin-bottom: 35px;
+}
+
+.span-3 {
+   background-color: yellow;
+   max-width: 150px;
+   max-height: 50px;
+   overflow: scroll;
+   border-top: 5px dashed blueviolet;
+}
+
+.img {
+   max-width: 125px;
+   margin: 15px;
+}
+
+
+.link-bl{
+   display: block;
+   border: 2px solid green;
+   margin-bottom: 25px;
+}
+
+.link-ibl{
+   display: inline-block;
+   border: 5px dotted red;
+   margin-bottom: 25px;
+}
+
+.dsp-none {
+   background-color: yellowgreen;
+   display: none;
+}
+
+.op-05 {
+   background-color: blue;
+   opacity: 0.5;
+}
+
+.op-0 {
+   background-color: brown;
+   border: 2px dashed darkslategray;
+   display: block;
+   height: 35px;
+   width: 120px;
+   border-radius: 15px;
+   text-align: center;   
+   opacity: 0;
+}
+
+.vis-hidden {
+   background-color: green;
+   visibility: hidden;
+}
+
+.mrg-right {
+   width: 500px;
+   background-color: blue;
+   margin: 0 0 25px auto;
+}
